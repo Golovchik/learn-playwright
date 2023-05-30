@@ -1,0 +1,21 @@
+{
+  "name": "learn-playwright",
+  "version": "1.0.0",
+  "description": "learn-playwright",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Golovchik/learn-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Golovchik/learn-playwright/issues"
+  },
+  "homepage": "https://github.com/Golovchik/learn-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.34.3"
+  }
+}
