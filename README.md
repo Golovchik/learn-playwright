@@ -40,3 +40,9 @@ Visit https://playwright.dev/docs/intro for more information. ✨
 
  # headless
  playwright.config.js => defineConfig => use: {headless: false,}
+
+ # selectors
+ https://playwright.dev/docs/api/class-selectors
+
+ # run test
+ npx playwright test
