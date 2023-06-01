@@ -46,3 +46,6 @@ Visit https://playwright.dev/docs/intro for more information. ✨
 
  # run test
  npx playwright test
+
+ # codegen
+ npx playwright codegen
