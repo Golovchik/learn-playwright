@@ -1,11 +1,14 @@
 import type { PlaywrightTestConfig } from "@playwright/test";
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/basicInteractions.test.ts"],
+  testMatch: ["tests/bootstrapDropdown.test.ts"],
   use: {
     headless: false,
     screenshot: "on",
     video: "on",
+    launchOptions: {
+      slowMo: 1000
+    }
   },
   retries: 0,
   reporter: [["dot"],["json", {
